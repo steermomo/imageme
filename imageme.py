@@ -110,7 +110,7 @@ def _create_index_file(
     # Put together HTML as a list of the lines we'll want to include
     # Issue #2 exists to do this better than HTML in-code
     header_text = \
-        'imageMe: ' + location + ' [' + str(len(image_files)) + ' image(s)]'
+        'imageMe: ' + location + ' [' + str(len(image_files)) + ' image(s)/ ' + MAX_IMAGES + ' showed]'
     html = [
         '<!DOCTYPE html>',
         '<html>',
