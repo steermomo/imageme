@@ -14,14 +14,14 @@
 Update:
 1. 原项目太久, 只支持Python2
 2. 原项目不支持分页, 目录下面几万张图片的时候疯狂加载.
+3. 添加延迟加载
 
-# [imageMe](http://www.imageme.xyz/)
 
 imageMe is a super simple image gallery server.
 
 Think `python -m SimpleHTTPServer` for pictures.
 
-![image](http://tva1.sinaimg.cn/mw690/dd456925gy1g7uscunnxej21dn0njgu1.jpg)
+![image.png](http://ww1.sinaimg.cn/large/dd456925gy1g7utn5uprtj20rp0ndwkb.jpg)
 
 ## Super Duper Easy One Line Usage
 
