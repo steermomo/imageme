@@ -21,7 +21,7 @@ imageMe is a super simple image gallery server.
 
 Think `python -m SimpleHTTPServer` for pictures.
 
-![](http://www.imageme.xyz/images/screenshots/image_index.png)
+![image](http://tva1.sinaimg.cn/mw690/dd456925gy1g7uscunnxej21dn0njgu1.jpg)
 
 ## Super Duper Easy One Line Usage
 
