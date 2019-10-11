@@ -40,13 +40,13 @@ Get hold of a copy of `imageme.py`. For _really_ easy use put it in your `PATH`.
 You could clone this repo:
 
 ```bash
-> git clone https://github.com/unwitting/imageme.git
+> git clone https://github.com/steermomo/imageme.git
 ```
 
 Or just grab the file directly:
 
 ```bash
-> wget https://cdn.rawgit.com/unwitting/imageme/master/imageme.py
+> wget https://raw.githubusercontent.com/steermomo/imageme/master/imageme.py
 ```
 
 ### Step 2: Run imageMe
