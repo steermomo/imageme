@@ -17,8 +17,9 @@ import os
 import re
 import sys
 import threading
-import SimpleHTTPServer
-import SocketServer
+# import SimpleHTTPServer
+# import SocketServer
+import socketserver
 import http.server
 from include import UNSUPPORTED_IMAGE_TYPE_DATA
 # Attempt to import PIL - if it doesn't exist we won't be able to make use of
@@ -449,9 +450,10 @@ def _run_server():
     # Configure allow_reuse_address to make re-runs of the script less painful -
     # if this is not True then waiting for the address to be freed after the
     # last run can block a subsequent run
-    SocketServer.TCPServer.allow_reuse_address = True
+    # SocketServer.TCPServer.allow_reuse_address = True
+    socketserver.TCPServer.allow_reuse_address = True
     # Create the server instance
-    server = SocketServer.TCPServer(
+    server = socketserver.TCPServer(
         ('', port),
         # SimpleHTTPServer.SimpleHTTPRequestHandler,
         http.server.SimpleHTTPRequestHandler
