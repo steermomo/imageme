@@ -167,7 +167,7 @@ def _create_index_file(
         html += [
             '    <td>',
             '    <a href="' + link_target + '">',
-            '        <img class="image lazyload" src="' + img_src + '">',
+            '        <img class="image lazyload" data-src="' + img_src + '">',
             '    </a>',
             '    </td>'
         ]
